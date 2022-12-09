@@ -13,7 +13,7 @@ const connection_url =
 // Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(Cors({ origin: "https://tinder-frontend-6dfcd.web.app/" }));
+app.use(Cors({ origin: "https://tinder-frontend-6dfcd.web.app" }));
 // DB config
 mongoose.connect(connection_url);
 
