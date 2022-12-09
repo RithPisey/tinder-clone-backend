@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import TinderCards from "../dbCards.js";
+import TinderCards from "./dbCards.js";
 import Cors from "cors";
 // App config
 const app = express();
